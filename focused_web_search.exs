@@ -8,7 +8,7 @@ defmodule FocusedWebSearch do
     :inets.start
     # :httpc.request(:get, {'http://www.erlang.org', []}, [], [])
     Enum.map(web_links, fn link -> 
-      IO.puts "Calling link: #{link}"
+      IO.puts "Checking link: #{link}"
       {:ok,{_status,_headers,content}} = :httpc.request('#{link}')
       # IO.puts "Content: #{content}   search_term = #{search_term}"
       if Regex.match?(~r/#{search_term}/, "#{content}") do

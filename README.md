@@ -30,3 +30,7 @@ Example
   Node Version  
     nodejs focused_web_search.js "Windows Firewall"
 
+  Elixir Version  
+    elixir focused_web_search.exs "Windows Firewall"
+
+
