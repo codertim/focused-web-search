@@ -1,5 +1,5 @@
 
-Search specific web pages for keyword
+Small script to search specific web pages for keyword
 
 Search sites from links.txt
 
