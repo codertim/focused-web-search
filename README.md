@@ -7,10 +7,10 @@ Requires one command line argument for search term
 
 Useful for searching podcast archives
 
-Example
-  Ruby Version
-    ruby focused_web_search.rb "Windows Firewall"
-    links.txt contents:
+Example  
+  Ruby Version  
+    ruby focused_web_search.rb "Windows Firewall"  
+    links.txt contents:  
       http://www.techguylabs.com/episodes/1056
       http://www.techguylabs.com/episodes/1055
       http://www.techguylabs.com/episodes/1054
@@ -20,13 +20,13 @@ Example
 
     Result: topic found in episode #1056
 
-  Java Version
-    javac FocusedWebSearch.java
+  Java Version  
+    javac FocusedWebSearch.java  
     java FocusedWebSearch "Windows Firewall"
 
-  Python Version
+  Python Version  
     python focused_web_search.py "Windows Firewall"
 
-  Node Version
+  Node Version  
     nodejs focused_web_search.js "Windows Firewall"
 
